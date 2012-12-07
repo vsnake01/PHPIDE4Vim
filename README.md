@@ -6,3 +6,10 @@ Installation
     cd ~/.vim/bundle/command-t/
     rake make
 
+Instructions
+--
+    <F3> - toggle NERDTree
+    <F4> - toggle tags
+    Ctrl+ <left>,<right> - move berween fuffers
+    Ctrl+W+l, Ctrl+W+h - move between windows
+
