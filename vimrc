@@ -185,3 +185,8 @@ if filereadable($HOME.'/.vimrc_local')
     source $HOME/.vimrc_local
 endif
 
+noremap <F5> :call Svndiff()<CR>
+
+hi DiffAdd      ctermfg=0 ctermbg=2 guibg='green'
+hi DiffDelete   ctermfg=0 ctermbg=1 guibg='red'
+hi DiffChange   ctermfg=0 ctermbg=3 guibg='yellow'
