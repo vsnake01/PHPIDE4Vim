@@ -1,0 +1,10 @@
+>>> messages
+plugin/frawor/functions:savexcept
+args: (1)
+plugin/frawor/functions:set2except
+===
+plugin/frawor/functions:savexcept
+plugin/frawor/functions:setexcept
+args: (2)
+plugin/frawor/functions:set2except
+<<< messages

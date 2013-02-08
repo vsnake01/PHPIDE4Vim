@@ -1,0 +1,6 @@
+.1: plugin/frawor/decorators:deidnstr
+.2: plugin/frawor/decorators:deiddef
+.3: plugin/frawor/decorators:invdeid
+.4: plugin/frawor/decorators:decnfun
+.5: plugin/frawor/decorators:deuref
+.6: plugin/frawor/functions:invdecret

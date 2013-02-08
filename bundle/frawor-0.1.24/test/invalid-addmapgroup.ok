@@ -1,0 +1,50 @@
+.1: plugin/frawor/mappings:mgidnotstr
+.2: plugin/frawor/mappings:invmgid
+.3: plugin/frawor/mappings:mgiddef
+.4: plugin/frawor/mappings:mapsndct
+.5: plugin/frawor/mappings:mapsempty
+.6: plugin/frawor/mappings:mgoptsndct
+.7: plugin/frawor/mappings:mleadnstr
+.8: plugin/frawor/mappings:invmapname
+.9: plugin/frawor/mappings:mdescrndct
+.10: plugin/frawor/mappings:rhsndef
+.11: plugin/frawor/mappings:nofunc
+.12: plugin/frawor/mappings:invmode
+.13: plugin/frawor/mappings:invmode
+.14: plugin/frawor/mappings:invmode
+.15: plugin/frawor/mappings:mmodenstr
+.16: plugin/frawor/mappings:lhsnstr
+.17: plugin/frawor/mappings:mdnbool
+.18: plugin/frawor/mappings:mdnbool
+.19: plugin/frawor/mappings:mdnbool
+.20: plugin/frawor/mappings:strfncall
+.21: plugin/frawor/mappings:strfncall
+.22: plugin/frawor/mappings:invrhs
+.23: plugin/frawor/mappings:invmtype
+.24: plugin/frawor/mappings:invabbrlhs
+.25: plugin/frawor/mappings:nowrapfunc
+.26: plugin/frawor/mappings:invargs
+>>> .27: messages
+plugin/frawor/mappings:mapcol
+plugin/frawor/mappings:mapcol
+plugin/frawor/mappings:mapcol
+plugin/frawor/mappings:mapcol
+<<< messages
+>>> .28: messages
+plugin/frawor/mappings:olhsnstr
+plugin/frawor/options:filfail
+<<< messages
+>>> .29: messages
+plugin/frawor/mappings:onolhs
+plugin/frawor/options:filfail
+<<< messages
+.30: plugin/frawor/mappings:invmgid
+.31: plugin/frawor/mappings:mgtypenstr
+.32: plugin/frawor/mappings:mtypenstr
+.33: plugin/frawor/mappings:invmtype
+.34: plugin/frawor/mappings:gdnbool
+.35: plugin/frawor/mappings:gdnbool
+.36: plugin/frawor/mappings:gdnbool
+.37: plugin/frawor/mappings:gdnbool
+.38: plugin/frawor/mappings:mgmodenstr
+.39: plugin/frawor/mappings:tipnstr

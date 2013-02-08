@@ -1,0 +1,34 @@
+:let &rtp.=",".escape($TESTDIR, ',\').'/rtp'
+:let g:testfile="plugin/".g:curtest.".vim"
+:source test.vim
+:let @/="!!!"
+AabcaAb*:call WriteFile(@/)
+odefbCd*:call WriteFile(@/)
+ojkl
+a^a#a%a&
+aU^aU#aU%aU&
+al^al#al%al&
+b^b#b%b&
+bU^bU#bU%bU&
+bl^bl#bl%bl&
+aabcdef
+aabcdef 
+a.
+a:?
+:0
+:W=== Second load ===
+:call FraworUnload(g:testfile[:-5])
+:source test.vim
+AabcaAb*:call WriteFile(@/)
+odefbCd*:call WriteFile(@/)
+ojkl
+a^a#a%a&
+aU^aU#aU%aU&
+al^al#al%al&
+b^b#b%b&
+bU^bU#bU%bU&
+bl^bl#bl%bl&
+aabcdef
+aabcdef 
+a.
+a:?

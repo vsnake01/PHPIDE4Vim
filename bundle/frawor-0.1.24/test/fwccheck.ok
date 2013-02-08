@@ -1,0 +1,294 @@
+>>> messages
+::: Section <Invalid length/Required>
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:invlen
+::: Section <Invalid length/Optinal>
+plugin/frawor/fwc/compiler:toolong
+plugin/frawor/fwc/compiler:toolong
+plugin/frawor/fwc/compiler:toolong
+plugin/frawor/fwc/compiler:toolong
+plugin/frawor/fwc/compiler:invlen
+::: Section <Invalid length/Required+optional>
+plugin/frawor/fwc/compiler:tooshort
+plugin/frawor/fwc/compiler:toolong
+plugin/frawor/fwc/compiler:toolong
+plugin/frawor/fwc/compiler:invlen
+::: Section <Invalid length/Required+next>
+plugin/frawor/fwc/compiler:tooshort
+plugin/frawor/fwc/compiler:tooshort
+::: Section <Invalid length/Required+optional+next>
+plugin/frawor/fwc/compiler:tooshort
+plugin/frawor/fwc/compiler:tooshort
+plugin/frawor/fwc/compiler:tooshort
+::: Section <Invalid length/Prefixes>
+plugin/frawor/fwc/compiler:tooshort
+plugin/frawor/fwc/compiler:tooshort
+plugin/frawor/fwc/compiler:tooshort
+plugin/frawor/fwc/compiler:tooshort
+plugin/frawor/fwc/compiler:tooshort
+plugin/frawor/fwc/compiler:tooshort
+plugin/frawor/fwc/compiler:invlen
+::: Section <Invalid length/Actions+required>
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:tooshort
+plugin/frawor/fwc/compiler:toolong
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:invlen
+::: Section <Invalid length/Actions+optional>
+plugin/frawor/fwc/compiler:tooshort
+plugin/frawor/fwc/compiler:toolong
+plugin/frawor/fwc/compiler:invlen
+::: Section <Invalid length/Actions+actions+required>
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:invlen
+::: Section <Pipes/Function pipes>
+::: Section <Pipes/Expression pipes>
+::: Section <Pipes/Built-in pipes>
+plugin/frawor/fwc/compiler:nsfunc
+plugin/frawor/fwc/compiler:runfail
+plugin/frawor/fwc/compiler:evalfail
+plugin/frawor/fwc/compiler:nmatch
+plugin/frawor/fwc/compiler:typefail
+1
+::: Section <Pipes/Built-in pipes/if>
+plugin/frawor/fwc/compiler:isnot
+plugin/frawor/fwc/compiler:isnot
+::: Section <Pipes/Built-in pipes/dict>
+plugin/frawor/fwc/compiler:keynmatch
+plugin/frawor/fwc/compiler:keynmatch
+plugin/frawor/fwc/compiler:nreg
+plugin/frawor/fwc/compiler:keynmatch
+plugin/frawor/fwc/compiler:keynmatch
+plugin/frawor/fwc/compiler:keynmatch
+::: Section <Pipes/Built-in pipes/tuple>
+plugin/frawor/fwc/compiler:invlstlen
+plugin/frawor/fwc/compiler:typefail
+::: Section <Pipes/Built-in pipes/isfunc>
+plugin/frawor/fwc/compiler:nsfunc
+::: Section <Pipes/Built-in pipes/list>
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:nbool
+::: Section <Pipes/Built-in pipes/key>
+plugin/frawor/fwc/compiler:nindict
+plugin/frawor/fwc/compiler:typefail
+::: Section <Pipes/Built-in pipes/in>
+plugin/frawor/fwc/compiler:ninlist
+plugin/frawor/fwc/compiler:ninlist
+plugin/frawor/fwc/compiler:nmatch
+plugin/frawor/fwc/compiler:nmatch
+plugin/frawor/fwc/compiler:nmatch
+plugin/frawor/fwc/compiler:nmatch
+plugin/frawor/fwc/compiler:nmatch
+::: Section <Pipes/Built-in pipes/substitute>
+plugin/frawor/fwc/compiler:typefail
+::: Section <Pipes/Built-in pipes/bool>
+::: Section <Pipes/Pipes composition>
+::: Section <Checks/Function checks>
+plugin/frawor/fwc/compiler:funcfail
+plugin/frawor/fwc/compiler:funcfail
+::: Section <Checks/Expression checks>
+plugin/frawor/fwc/compiler:exprfail
+::: Section <Checks/Built-in checks>
+plugin/frawor/fwc/compiler:funcfail
+plugin/frawor/fwc/compiler:exprfail
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:nreg
+plugin/frawor/fwc/compiler:nindict
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:notfail
+plugin/frawor/fwc/compiler:isnot
+plugin/frawor/fwc/compiler:isnot
+::: Section <Checks/Built-in checks/in>
+plugin/frawor/fwc/compiler:ninlist
+plugin/frawor/fwc/compiler:ninlist
+::: Section <Checks/Built-in checks/in/Subscripts checks>
+plugin/frawor/fwc/compiler:ninlist
+plugin/frawor/fwc/compiler:ninlist
+plugin/frawor/fwc/compiler:ninlist
+plugin/frawor/fwc/compiler:ninlist
+plugin/frawor/fwc/compiler:ninlist
+plugin/frawor/fwc/compiler:ninlist
+plugin/frawor/fwc/compiler:ninlist
+plugin/frawor/fwc/compiler:ninlist
+plugin/frawor/fwc/compiler:ninlist
+::: Section <Checks/Built-in checks/dict>
+plugin/frawor/fwc/compiler:keynmatch
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:keynmatch
+plugin/frawor/fwc/compiler:keynmatch
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:keynmatch
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:keynmatch
+plugin/frawor/fwc/compiler:nreg
+::: Section <Checks/Built-in checks/path>
+plugin/frawor/fwc/compiler:nwrite
+plugin/frawor/fwc/compiler:nowrite
+plugin/frawor/fwc/compiler:nowrite
+plugin/frawor/fwc/compiler:nowrite
+plugin/frawor/fwc/compiler:isfile
+plugin/frawor/fwc/compiler:isdir
+plugin/frawor/fwc/compiler:nread
+plugin/frawor/fwc/compiler:isdir
+::: Section <Checks/Built-in checks/either>
+plugin/frawor/fwc/compiler:eitherfail
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:eitherfail
+plugin/frawor/fwc/compiler:notfail
+plugin/frawor/fwc/compiler:isnot
+::: Section <Checks/Built-in checks/list>
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:nreg
+plugin/frawor/fwc/compiler:nregmatch
+::: Section <Checks/Built-in checks/tuple>
+plugin/frawor/fwc/compiler:invlstlen
+plugin/frawor/fwc/compiler:nregmatch
+plugin/frawor/fwc/compiler:nreg
+plugin/frawor/fwc/compiler:nreg
+plugin/frawor/fwc/compiler:invlstlen
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:nbool
+::: Section <Checks/Built-in checks/range>
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:nrange
+plugin/frawor/fwc/compiler:nrange
+plugin/frawor/fwc/compiler:nrange
+::: Section <Checks/Built-in checks/haskey>
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:keymis
+plugin/frawor/fwc/compiler:keysmis
+plugin/frawor/fwc/compiler:keysmis
+plugin/frawor/fwc/compiler:keysmis
+plugin/frawor/fwc/compiler:keymis
+::: Section <Checks/Built-in checks/isfunc>
+plugin/frawor/fwc/compiler:nsfunc
+plugin/frawor/fwc/compiler:nsfunc
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:nfunc
+plugin/frawor/fwc/compiler:nsfunc
+plugin/frawor/fwc/compiler:nsfunc
+::: Section <Checks/Built-in checks/match>
+plugin/frawor/fwc/compiler:nregmatch
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:nregmatch
+::: Section <Checks/Built-in checks/idof>
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:novar
+plugin/frawor/fwc/compiler:nofunc
+plugin/frawor/fwc/compiler:nofunc
+plugin/frawor/fwc/compiler:noopt
+plugin/frawor/fwc/compiler:noopt
+plugin/frawor/fwc/compiler:nohl
+plugin/frawor/fwc/compiler:nohl
+plugin/frawor/fwc/compiler:noevent
+plugin/frawor/fwc/compiler:noevent
+plugin/frawor/fwc/compiler:noaug
+plugin/frawor/fwc/compiler:noaug
+plugin/frawor/fwc/compiler:nosign
+plugin/frawor/fwc/compiler:nosign
+sign Bar text=<>
+sign 1 text=<>
+::: Section <Checks/Built-in checks/type>
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:typesfail
+::: Section <Checks/Check composition>
+plugin/frawor/fwc/compiler:exprfail
+plugin/frawor/fwc/compiler:exprfail
+plugin/frawor/fwc/compiler:exprfail
+::: Section <Messages>
+Frawor:plugin/fwccheck:str:@@@[0]<
+plugin/frawor/fwc/compiler:nbool
+Frawor:plugin/fwccheck:str:\v(<
+plugin/frawor/fwc/compiler:nreg
+Frawor:plugin/fwccheck:str:0<
+plugin/frawor/fwc/compiler:nbool
+Frawor:plugin/fwccheck:str:1<
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:nbool
+Frawor:plugin/fwccheck:str:@@@[0]<
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:nbool
+::: Section <Option `only'>
+plugin/frawor/fwc/compiler:nreg
+plugin/frawor/fwc/compiler:typefail
+plugin/frawor/fwc/compiler:invlstlen
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:nreg
+plugin/frawor/fwc/compiler:isnot
+::: Section <Option `onlystrings'>
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:nrange
+plugin/frawor/fwc/compiler:nrange
+::: Section <Optional arguments>
+plugin/frawor/fwc/compiler:lennmatch
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:lennmatch
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:lennmatch
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:isnot
+::: Section <Optional arguments/Complex length checks>
+plugin/frawor/fwc/compiler:lennmatch
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:lennmatch
+plugin/frawor/fwc/compiler:lennmatch
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:invlen
+::: Section <Next arguments>
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:nbool
+plugin/frawor/fwc/compiler:nreg
+plugin/frawor/fwc/compiler:nbool
+::: Section <Actions>
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:anf
+plugin/frawor/fwc/compiler:anf
+plugin/frawor/fwc/compiler:nreg
+plugin/frawor/fwc/compiler:anf
+plugin/frawor/fwc/compiler:invlen
+plugin/frawor/fwc/compiler:anf
+::: Section <Prefixes>
+plugin/frawor/fwc/compiler:pnf
+plugin/frawor/fwc/compiler:nreg
+plugin/frawor/fwc/compiler:pnf
+plugin/frawor/fwc/compiler:pnf
+plugin/frawor/fwc/compiler:noreqpref
+plugin/frawor/fwc/compiler:pnf
+plugin/frawor/fwc/compiler:noprefarg
+::: Section <Required, optional, actions, prefixes and next composition>
+plugin/frawor/fwc/compiler:tooshort
+<<< messages

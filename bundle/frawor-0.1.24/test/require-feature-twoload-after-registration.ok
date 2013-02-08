@@ -1,0 +1,148 @@
+newfeature
+require
+throw
+warn
+Entered s:F.main()
+Registered plugin/twoload-plugin-with-feature-2
+Has run :runtime
+Registered plugin/twoload-plugin-with-feature-3
+Loaded plugin/twoload-plugin-with-feature-3
+Has run FraworLoad
+Registered plugin/twoload-plugin-with-feature-after-registration-2
+Has run :runtime 2
+Registered plugin/twoload-plugin-with-feature-after-registration-3
+Loaded plugin/twoload-plugin-with-feature-after-registration-3
+Has run FraworLoad 2
+Registered plugin/twoload-plugin-with-feature-1
+Loaded plugin/twoload-plugin-with-feature-1
+feature-register: plugin/twoload-plugin-with-feature-1
+feature-depadd: plugin/twoload-plugin-with-feature-1 plugin/twoload-plugin-with-feature-1
+require tpwf1: 1
+Loaded plugin/twoload-plugin-with-feature-2
+feature-register: plugin/twoload-plugin-with-feature-2
+feature-depadd: plugin/twoload-plugin-with-feature-1 plugin/twoload-plugin-with-feature-2
+feature-depadd: plugin/twoload-plugin-with-feature-2 plugin/twoload-plugin-with-feature-2
+require tpwf2: 1
+feature-register: plugin/twoload-plugin-with-feature-3
+feature-depadd: plugin/twoload-plugin-with-feature-1 plugin/twoload-plugin-with-feature-3
+feature-depadd: plugin/twoload-plugin-with-feature-2 plugin/twoload-plugin-with-feature-3
+feature-depadd: plugin/twoload-plugin-with-feature-3 plugin/twoload-plugin-with-feature-3
+require tpwf3: 1
+Registered plugin/twoload-plugin-with-feature-after-registration-1
+feature-register: plugin/twoload-plugin-with-feature-after-registration-1
+Loaded plugin/twoload-plugin-with-feature-after-registration-1
+feature-depadd: plugin/twoload-plugin-with-feature-1 plugin/twoload-plugin-with-feature-after-registration-1
+feature-depadd: plugin/twoload-plugin-with-feature-2 plugin/twoload-plugin-with-feature-after-registration-1
+feature-depadd: plugin/twoload-plugin-with-feature-3 plugin/twoload-plugin-with-feature-after-registration-1
+feature-depadd: plugin/twoload-plugin-with-feature-after-registration-1 plugin/twoload-plugin-with-feature-after-registration-1
+require tpwfar1: 1
+Loaded plugin/twoload-plugin-with-feature-after-registration-2
+feature-register: plugin/twoload-plugin-with-feature-after-registration-2
+feature-depadd: plugin/twoload-plugin-with-feature-1 plugin/twoload-plugin-with-feature-after-registration-2
+feature-depadd: plugin/twoload-plugin-with-feature-2 plugin/twoload-plugin-with-feature-after-registration-2
+feature-depadd: plugin/twoload-plugin-with-feature-3 plugin/twoload-plugin-with-feature-after-registration-2
+feature-depadd: plugin/twoload-plugin-with-feature-after-registration-1 plugin/twoload-plugin-with-feature-after-registration-2
+feature-depadd: plugin/twoload-plugin-with-feature-after-registration-2 plugin/twoload-plugin-with-feature-after-registration-2
+require tpwfar2: 1
+feature-register: plugin/twoload-plugin-with-feature-after-registration-3
+feature-depadd: plugin/twoload-plugin-with-feature-1 plugin/twoload-plugin-with-feature-after-registration-3
+feature-depadd: plugin/twoload-plugin-with-feature-2 plugin/twoload-plugin-with-feature-after-registration-3
+feature-depadd: plugin/twoload-plugin-with-feature-3 plugin/twoload-plugin-with-feature-after-registration-3
+feature-depadd: plugin/twoload-plugin-with-feature-after-registration-1 plugin/twoload-plugin-with-feature-after-registration-3
+feature-depadd: plugin/twoload-plugin-with-feature-after-registration-2 plugin/twoload-plugin-with-feature-after-registration-3
+feature-depadd: plugin/twoload-plugin-with-feature-after-registration-3 plugin/twoload-plugin-with-feature-after-registration-3
+require tpwfar3: 1
+feature-depadd: plugin/twoload-plugin-with-feature-1 plugin/plugin-with-feature
+feature-depadd: plugin/twoload-plugin-with-feature-2 plugin/plugin-with-feature
+feature-depadd: plugin/twoload-plugin-with-feature-3 plugin/plugin-with-feature
+feature-depadd: plugin/twoload-plugin-with-feature-after-registration-1 plugin/plugin-with-feature
+feature-depadd: plugin/twoload-plugin-with-feature-after-registration-2 plugin/plugin-with-feature
+feature-depadd: plugin/twoload-plugin-with-feature-after-registration-3 plugin/plugin-with-feature
+require pwf: 1
+newfeature
+require
+testfeature
+throw
+warn
+feature-load: plugin/require-feature-twoload-after-registration
+feature-load: plugin/twoload-plugin-with-feature-1
+feature-load: plugin/twoload-plugin-with-feature-2
+feature-load: plugin/twoload-plugin-with-feature-3
+feature-load: plugin/twoload-plugin-with-feature-after-registration-1
+feature-load: plugin/twoload-plugin-with-feature-after-registration-2
+feature-load: plugin/twoload-plugin-with-feature-after-registration-3
+Loaded plugin/require-feature-twoload-after-registration
+feature-unloadpre: plugin/twoload-plugin-with-feature-1
+feature-unloadpre: plugin/twoload-plugin-with-feature-2
+feature-unloadpre: plugin/twoload-plugin-with-feature-3
+feature-unloadpre: plugin/twoload-plugin-with-feature-after-registration-1
+feature-unloadpre: plugin/twoload-plugin-with-feature-after-registration-2
+feature-unloadpre: plugin/twoload-plugin-with-feature-after-registration-3
+feature-unload: plugin/twoload-plugin-with-feature-1
+feature-unload: plugin/twoload-plugin-with-feature-2
+feature-unload: plugin/twoload-plugin-with-feature-3
+feature-unload: plugin/twoload-plugin-with-feature-after-registration-1
+feature-unload: plugin/twoload-plugin-with-feature-after-registration-2
+feature-unload: plugin/twoload-plugin-with-feature-after-registration-3
+newfeature
+require
+throw
+warn
+Entered s:F.main()
+Has run :runtime
+Has run FraworLoad
+Has run :runtime 2
+Has run FraworLoad 2
+feature-register: plugin/twoload-plugin-with-feature-1
+feature-depadd: plugin/twoload-plugin-with-feature-1 plugin/twoload-plugin-with-feature-1
+require tpwf1: 1
+feature-register: plugin/twoload-plugin-with-feature-2
+feature-depadd: plugin/twoload-plugin-with-feature-1 plugin/twoload-plugin-with-feature-2
+feature-depadd: plugin/twoload-plugin-with-feature-2 plugin/twoload-plugin-with-feature-2
+require tpwf2: 1
+feature-register: plugin/twoload-plugin-with-feature-3
+feature-depadd: plugin/twoload-plugin-with-feature-1 plugin/twoload-plugin-with-feature-3
+feature-depadd: plugin/twoload-plugin-with-feature-2 plugin/twoload-plugin-with-feature-3
+feature-depadd: plugin/twoload-plugin-with-feature-3 plugin/twoload-plugin-with-feature-3
+require tpwf3: 1
+feature-register: plugin/twoload-plugin-with-feature-after-registration-1
+feature-depadd: plugin/twoload-plugin-with-feature-1 plugin/twoload-plugin-with-feature-after-registration-1
+feature-depadd: plugin/twoload-plugin-with-feature-2 plugin/twoload-plugin-with-feature-after-registration-1
+feature-depadd: plugin/twoload-plugin-with-feature-3 plugin/twoload-plugin-with-feature-after-registration-1
+feature-depadd: plugin/twoload-plugin-with-feature-after-registration-1 plugin/twoload-plugin-with-feature-after-registration-1
+require tpwfar1: 1
+feature-register: plugin/twoload-plugin-with-feature-after-registration-2
+feature-depadd: plugin/twoload-plugin-with-feature-1 plugin/twoload-plugin-with-feature-after-registration-2
+feature-depadd: plugin/twoload-plugin-with-feature-2 plugin/twoload-plugin-with-feature-after-registration-2
+feature-depadd: plugin/twoload-plugin-with-feature-3 plugin/twoload-plugin-with-feature-after-registration-2
+feature-depadd: plugin/twoload-plugin-with-feature-after-registration-1 plugin/twoload-plugin-with-feature-after-registration-2
+feature-depadd: plugin/twoload-plugin-with-feature-after-registration-2 plugin/twoload-plugin-with-feature-after-registration-2
+require tpwfar2: 1
+feature-register: plugin/twoload-plugin-with-feature-after-registration-3
+feature-depadd: plugin/twoload-plugin-with-feature-1 plugin/twoload-plugin-with-feature-after-registration-3
+feature-depadd: plugin/twoload-plugin-with-feature-2 plugin/twoload-plugin-with-feature-after-registration-3
+feature-depadd: plugin/twoload-plugin-with-feature-3 plugin/twoload-plugin-with-feature-after-registration-3
+feature-depadd: plugin/twoload-plugin-with-feature-after-registration-1 plugin/twoload-plugin-with-feature-after-registration-3
+feature-depadd: plugin/twoload-plugin-with-feature-after-registration-2 plugin/twoload-plugin-with-feature-after-registration-3
+feature-depadd: plugin/twoload-plugin-with-feature-after-registration-3 plugin/twoload-plugin-with-feature-after-registration-3
+require tpwfar3: 1
+feature-depadd: plugin/twoload-plugin-with-feature-1 plugin/plugin-with-feature
+feature-depadd: plugin/twoload-plugin-with-feature-2 plugin/plugin-with-feature
+feature-depadd: plugin/twoload-plugin-with-feature-3 plugin/plugin-with-feature
+feature-depadd: plugin/twoload-plugin-with-feature-after-registration-1 plugin/plugin-with-feature
+feature-depadd: plugin/twoload-plugin-with-feature-after-registration-2 plugin/plugin-with-feature
+feature-depadd: plugin/twoload-plugin-with-feature-after-registration-3 plugin/plugin-with-feature
+require pwf: 1
+newfeature
+require
+testfeature
+throw
+warn
+feature-load: plugin/require-feature-twoload-after-registration
+feature-load: plugin/twoload-plugin-with-feature-1
+feature-load: plugin/twoload-plugin-with-feature-2
+feature-load: plugin/twoload-plugin-with-feature-3
+feature-load: plugin/twoload-plugin-with-feature-after-registration-1
+feature-load: plugin/twoload-plugin-with-feature-after-registration-2
+feature-load: plugin/twoload-plugin-with-feature-after-registration-3
+Loaded plugin/require-feature-twoload-after-registration

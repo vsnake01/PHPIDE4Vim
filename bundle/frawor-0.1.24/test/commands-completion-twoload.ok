@@ -1,0 +1,12 @@
+>>> messages
+First load
+Second load
+<<< messages
+aa
+ghi
+>>> messages
+First load
+Second load
+<<< messages
+bb
+def

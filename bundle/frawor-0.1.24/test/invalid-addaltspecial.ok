@@ -1,0 +1,9 @@
+.1: plugin/frawor/decorators/altervars:idnotstr
+.2: plugin/frawor/decorators/altervars:invid
+.3: plugin/frawor/decorators/altervars:ssiddef
+.4: plugin/frawor/decorators/altervars:savnotfunc
+.5: plugin/frawor/decorators/altervars:setnotfunc
+.6: plugin/frawor/decorators/altervars:ssmanyargs
+.7: plugin/frawor/decorators/altervars:ssoptsndct
+.8: plugin/frawor/decorators/altervars:sssavuref
+.9: plugin/frawor/decorators/altervars:ssseturef

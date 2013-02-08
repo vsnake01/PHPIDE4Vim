@@ -1,0 +1,10 @@
+:let &rtp.=",".escape($TESTDIR, ',\').'/rtp'
+:let g:testfile="plugin/".g:curtest.".vim"
+:source test.vim
+:set wc=<Tab> wcm=<Tab>
+:Abc a	
+:Def g	
+:call FraworUnload(g:testfile[:-5])
+:source test.vim
+:Abc b	
+:Def d	

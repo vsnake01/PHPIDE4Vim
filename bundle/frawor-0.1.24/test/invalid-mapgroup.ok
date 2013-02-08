@@ -1,0 +1,11 @@
+.1: plugin/frawor/mappings:mmmgidnstr
+.2: plugin/frawor/mappings:mminvbuf
+.3: plugin/frawor/mappings:mmnounrel
+.4: plugin/frawor/mappings:mmnomgid
+.5: plugin/frawor/mappings:ummgidnstr
+.6: plugin/frawor/mappings:uminvbuf
+.7: plugin/frawor/mappings:umnounrel
+.8: plugin/frawor/mappings:umnomgid
+.9: plugin/frawor/mappings:dmmgidnstr
+.10: plugin/frawor/mappings:dmnomgid
+.11: plugin/frawor/mappings:dmnself

@@ -1,0 +1,4 @@
+.1: plugin/frawor/checks:uchecker
+.2: plugin/frawor/checks:chkncall
+.3: plugin/frawor/checks:filncall
+.4: plugin/frawor/checks:ufilter

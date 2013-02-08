@@ -1,0 +1,13 @@
+registered plugin/double-load.2
+features: newfeature require throw warn
+registered plugin/double-load
+features: newfeature require throw warn
+feature-load: plugin/double-load
+loaded plugin/double-load
+features: newfeature require testfeature throw warn
+loaded plugin/double-load.2
+features: doublefeature newfeature require throw warn
+registered plugin/double-load.2
+features: doublefeature newfeature require throw warn
+loaded plugin/double-load.2
+features: doublefeature newfeature require throw warn

@@ -1,0 +1,30 @@
+Before registration: 
+pl: undef
+ l: undef
+After registration: 
+pl: 0
+ l: undef
+Runtime: 
+pl: 0
+ l: undef
+After load: 
+pl: 0
+ l: 1
+Second run: 
+pl: 1
+ l: undef
+Before registration: 
+pl: undef
+ l: undef
+After registration: 
+pl: 0
+ l: undef
+Runtime: 
+pl: 0
+ l: undef
+After load: 
+pl: 0
+ l: 1
+Second run: 
+pl: 1
+ l: undef

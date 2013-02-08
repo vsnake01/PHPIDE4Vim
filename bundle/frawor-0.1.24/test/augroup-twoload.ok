@@ -1,0 +1,6 @@
+entered %TMPDIR%/test/abc
+wiped %TMPDIR%/test/abc
+wiped %TMPDIR%/test/def
+entered %TMPDIR%/test/abc
+wiped %TMPDIR%/test/abc
+wiped %TMPDIR%/test/def
