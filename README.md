@@ -1,3 +1,7 @@
+Description
+
+Use vim as PHP IDE.
+
 Installation
 --
     sudo yum install rake ruby-devel
