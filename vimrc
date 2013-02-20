@@ -24,7 +24,7 @@ set hidden                  "Switch between unsaved buffers w/o needing to save,
 filetype indent on          "Syntax Highlight
 filetype plugin on          "Needed for snipMate
 set autoindent              "Autoindent
-set expandtab               "Use spaces instead of tabs
+set noexpandtab               "Use spaces instead of tabs
 "Ignore these files when completing names
 set wildignore=.svn,CVS,.git,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif
 
