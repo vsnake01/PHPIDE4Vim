@@ -20,8 +20,9 @@ Instructions
 --
     <F3> - toggle NERDTree
     <F4> - toggle tags
+    <F5> - Show Svndiff()
+    <F6> - shows diff in two windows
     Ctrl+ <left>,<right> - move berween buffers
     Ctrl+W+l, Ctrl+W+h - move between windows
     Ctrl+n - autocomplete
-    :AuVimDiff - shows diff in two windows
     Ctrl+] - jump to definition
