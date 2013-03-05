@@ -10,6 +10,11 @@ Installation
     ln -s ~/.vim/vimrc ~/.vimrc
     cd ~/.vim/bundle/command-t/
     rake make
+    
+Create CTAGS
+--
+    cd <PROJECTFOLDER>
+    ctags -R *
 
 Instructions
 --
