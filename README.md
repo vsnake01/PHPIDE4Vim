@@ -19,4 +19,4 @@ Instructions
     Ctrl+W+l, Ctrl+W+h - move between windows
     Ctrl+n - autocomplete
     :AuVimDiff - shows diff in two windows
-    
+    Ctrl+] - jump to definition
