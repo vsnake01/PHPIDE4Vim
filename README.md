@@ -22,7 +22,9 @@ Instructions
     <F4> - toggle tags
     <F5> - Show Svndiff()
     <F6> - shows diff in two windows
+    Ctrl+w+o - close diff windows
     Ctrl+ <left>,<right> - move berween buffers
     Ctrl+W+l, Ctrl+W+h - move between windows
     Ctrl+n - autocomplete
     Ctrl+] - jump to definition
+    Ctrl+w+c - close current window
