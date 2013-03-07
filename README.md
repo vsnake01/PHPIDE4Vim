@@ -1,6 +1,13 @@
-Description
+Use VIM as powerful IDE for PHP.
 
-Use vim as PHP IDE.
+Features:
+--
+
+ * file browser
+ * tags browser
+ * auto-completition
+ * goto-definition
+ * version-control integration
 
 Installation
 --
