@@ -24,12 +24,12 @@ set hidden                  "Switch between unsaved buffers w/o needing to save,
 filetype indent on          "Syntax Highlight
 filetype plugin on          "Needed for snipMate
 set autoindent              "Autoindent
-set expandtab               "Use spaces instead of tabs
+set noexpandtab               "Use spaces instead of tabs
 "Ignore these files when completing names
 set wildignore=.svn,CVS,.git,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif
 
 "------  Special Coffee Behavior ------
-au BufNewFile,BufReadPost *.coffee set shiftwidth=2 softtabstop=2 expandtab
+au BufNewFile,BufReadPost *.coffee set shiftwidth=2 softtabstop=2 noexpandtab
 autocmd BufNewFile,BufRead *.coffee set filetype=coffee
 au BufWritePost *.coffee silent CoffeeMake!
 
@@ -131,7 +131,7 @@ map <Leader>ss :SaveSession
 " When pressing <leader>cd switch to the directory of the open buffer
 "map <Leader>cd :cd %:p:h<CR>
 " ,ct = Builds ctags
-map <Leader>ct :! /usr/local/bin/ctags -R *<CR>
+map <Leader>ct :! /usr/bin/ctags -R *<CR>
 
 " ,v = Paste
 map <Leader>v "+gP
@@ -171,7 +171,7 @@ if has("gui_running")
     highlight SpecialKey guifg=#4a4a59
 else
     set t_Co=256
-    colorscheme Mustang             "This theme actually works in 256, ir_black doesn't
+    colorscheme wombat              "This theme actually works in 256, ir_black doesn't
 endif
 
 if has("gui_macvim") "Use Experimental Renderer option must be enabled for transparency
@@ -186,6 +186,7 @@ if filereadable($HOME.'/.vimrc_local')
 endif
 
 noremap <F5> :call Svndiff()<CR>
+noremap <F6> :AuVimDiff<CR>
 
 hi DiffAdd      ctermfg=0 ctermbg=2 guibg='green'
 hi DiffDelete   ctermfg=0 ctermbg=1 guibg='red'
