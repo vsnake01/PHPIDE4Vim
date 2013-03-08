@@ -35,3 +35,4 @@ Instructions
     Ctrl+n - autocomplete
     Ctrl+] - jump to definition
     Ctrl+w+c - close current window
+    Shift+k - see help for function
