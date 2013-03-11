@@ -1,4 +1,6 @@
 let g:svndiff_autoupdate="1"
+let g:DisableAutoPHPFolding=1
+set foldlevelstart=99
 
 call pathogen#infect()      "Executes the pathogen plugin, which loads other plugins
 let mapleader=","           "Changes Leader key into a comma instead of a backslash
@@ -24,7 +26,7 @@ set hidden                  "Switch between unsaved buffers w/o needing to save,
 filetype indent on          "Syntax Highlight
 filetype plugin on          "Needed for snipMate
 set autoindent              "Autoindent
-set noexpandtab               "Use spaces instead of tabs
+set noexpandtab             "Do not use spaces instead of tabs
 "Ignore these files when completing names
 set wildignore=.svn,CVS,.git,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif
 
@@ -191,3 +193,4 @@ noremap <F6> :AuVimDiff<CR>
 hi DiffAdd      ctermfg=0 ctermbg=2 guibg='green'
 hi DiffDelete   ctermfg=0 ctermbg=1 guibg='red'
 hi DiffChange   ctermfg=0 ctermbg=3 guibg='yellow'
+
