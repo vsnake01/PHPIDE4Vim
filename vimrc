@@ -188,7 +188,27 @@ if filereadable($HOME.'/.vimrc_local')
 endif
 
 noremap <F5> :call Svndiff()<CR>
-noremap <F6> :AuVimDiff<CR>
+noremap <F6> :call MyDiff()<CR>
+
+function! MyDiff()
+  if (&diff == 0 || getbufvar('#', '&diff') == 0)
+        \ && (bufname('%') !~ '^fugitive:' && bufname('#') !~ '^fugitive:')
+    AuVimDiff
+    return
+  endif
+
+  " close current buffer if alternate is not fugitive but current one is
+  if bufname('#') !~ '^fugitive:' && bufname('%') =~ '^fugitive:'
+    if bufwinnr("#") == -1
+      b #
+      bd #
+    else
+      bd
+    endif
+  else
+    bd #
+  endif
+endfunction
 
 hi DiffAdd      ctermfg=0 ctermbg=2 guibg='green'
 hi DiffDelete   ctermfg=0 ctermbg=1 guibg='red'
