@@ -120,7 +120,7 @@ function! s:InitTypes()
         \ {'short' : 'c', 'long' : 'classes',     'fold' : 0},
         \ {'short' : 'f', 'long' : 'functions',   'fold' : 0},
         \ {'short' : 's', 'long' : 'subroutines', 'fold' : 0},
-        \ {'short' : 'v', 'long' : 'variables',   'fold' : 0}
+        \ {'short' : 'v', 'long' : 'variables',   'fold' : 1}
     \ ]
     let s:known_types.aspvbs = type_aspvbs
     " Awk {{{3
@@ -497,7 +497,7 @@ function! s:InitTypes()
         \ {'short' : 'c', 'long' : 'classes',              'fold' : 0},
         \ {'short' : 'd', 'long' : 'constant definitions', 'fold' : 0},
         \ {'short' : 'f', 'long' : 'functions',            'fold' : 0},
-        \ {'short' : 'v', 'long' : 'variables',            'fold' : 0},
+        \ {'short' : 'v', 'long' : 'variables',            'fold' : 1},
         \ {'short' : 'j', 'long' : 'javascript functions', 'fold' : 0}
     \ ]
     let s:known_types.php = type_php

@@ -63,7 +63,7 @@ noremap <silent> <F3> :NERDTreeToggle<CR>
 let g:tagbar_ctags_bin='/usr/bin/ctags'
 let g:tagbar_width=26
 "noremap <silent> <Leader>y :TagbarToggle<CR>
-noremap <silent> <F4> :TagbarToggle<CR>
+noremap <silent> <F4> :TagbarToggle<CR><c-w>l
 
 "------  Buffers  ------
 " Ctrl Left & Right move between buffers
@@ -188,7 +188,7 @@ if filereadable($HOME.'/.vimrc_local')
 endif
 
 noremap <F5> :call Svndiff()<CR>
-noremap <F6> :call MyDiff()<CR>
+"noremap <F6> :call MyDiff()<CR>
 
 function! MyDiff()
   if (&diff == 0 || getbufvar('#', '&diff') == 0)
