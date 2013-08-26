@@ -28,11 +28,12 @@ Instructions
     <F3> - toggle NERDTree
     <F4> - toggle tags
     <F5> - Show Svndiff()
-    <F6> - shows diff in two windows
-    Ctrl+w+o - close diff windows
+    <F6> - toggle diff in two windows (Disabled for now)
     Ctrl+ <left>,<right> - move berween buffers
     Ctrl+W+l, Ctrl+W+h - move between windows
     Ctrl+n - autocomplete
     Ctrl+] - jump to definition
+    Ctrl+o - jump to previous location
+    Ctrl-i - jumo to next location
     Ctrl+w+c - close current window
     Shift+k - see help for function
