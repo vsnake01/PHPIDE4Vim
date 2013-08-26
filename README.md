@@ -37,3 +37,6 @@ Instructions
     Ctrl-i - jumo to next location
     Ctrl+w+c - close current window
     Shift+k - see help for function
+    :buffers - list of opened files (buffers)
+    :bw - close current buffer
+    :2bw - remove buffer #2
