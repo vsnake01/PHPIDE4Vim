@@ -63,7 +63,7 @@ noremap <silent> <F3> :NERDTreeToggle<CR>
 let g:tagbar_ctags_bin='/usr/bin/ctags'
 let g:tagbar_width=26
 "noremap <silent> <Leader>y :TagbarToggle<CR>
-noremap <silent> <F4> :TagbarToggle<CR><c-w>l
+noremap <silent> <F4> :TagbarToggle<CR>
 
 "------  Buffers  ------
 " Ctrl Left & Right move between buffers

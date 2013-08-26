@@ -35,11 +35,11 @@ if !exists('g:tagbar_width')
 endif
 
 if !exists('g:tagbar_autoclose')
-    let g:tagbar_autoclose = 0
+    let g:tagbar_autoclose = 1
 endif
 
 if !exists('g:tagbar_autofocus')
-    let g:tagbar_autofocus = 0
+    let g:tagbar_autofocus = 1
 endif
 
 if !exists('g:tagbar_sort')
